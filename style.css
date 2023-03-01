@@ -6,6 +6,11 @@
 
 body{
     margin: 20px;
+    background-image:  url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
 }
 
 
@@ -20,6 +25,7 @@ ul{
     justify-content: center;
     align-items: center;
     gap: 30px;
+    font-size: 20px;
 
 }
 
@@ -29,14 +35,17 @@ li{
 
 li a{
     text-decoration: none;
+    color: yellow;
     
 }
 
 button{
-    background-color: rgb(247, 34, 34);
+    background-color: #ff505f;
     color: #fff;
     font-weight: 700;
     border: none;
+    font-size: 18px;
+    padding: 10px;
     /* border-radius: 5px; */
 }
 
@@ -45,6 +54,18 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 200px;
+    /* margin: 100px; */
+    padding-top: 60px;
     text-align: center;
+}
+main div h1{
+    font-size: 100px;
+    /* margin: 20px; */
+    /* padding: 10px; */
+    color: yellow;
+    font-weight: bolder;
+}
+footer{
+    display: flex;
+    justify-content: end;
 }
